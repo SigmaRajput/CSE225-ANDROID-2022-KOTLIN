@@ -13,18 +13,32 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CSE225_ANDROID_KOTLIN_2022">
         <activity
+            android:name=".EditTextCustom"
+            android:exported="false" />
+        <activity
+            android:name=".Custsom_view_example"
+            android:exported="false" />
+        <activity
+            android:name=".textViewCustom"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
             android:name=".NotificationViewExample"
             android:exported="false" />
         <activity
             android:name=".NotificationManagerExample"
-            android:exported="true" ><intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter></activity>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".BottomNavBarExample"
-            android:exported="true" ></activity>
+            android:exported="true" />
         <activity
             android:name=".MediaPlayerExample"
             android:exported="true" />
@@ -62,8 +76,7 @@
             android:exported="true" />
         <activity
             android:name=".AlarmManagerExample"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true" />
